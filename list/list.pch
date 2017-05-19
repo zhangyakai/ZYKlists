@@ -1,0 +1,28 @@
+//
+//  list.pch
+//  list
+//
+//  Created by DTMobile on 2017/5/19.
+//  Copyright © 2017年 DTMobile. All rights reserved.
+//
+
+#ifndef list_pch
+#define list_pch
+//先做一个判断  如果在OC环境下定义下面的公用宏 如果不是OC环境下，那么不能用
+#ifdef __OBJC__
+//头文件
+#import "UIView+Frame.h"
+#import "Masonry.h"
+#endif
+
+/** RGB颜色**/
+#define ZYKColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+/** RGB颜色**/
+#define ZYKRGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#endif /* list_pch */
+
+#define ZYKSreenW [UIScreen mainScreen].bounds.size.width
+#define ZYKSreenH [UIScreen mainScreen].bounds.size.height
+#define NAV_HEIGHT 64
+#define TABBAT_HEIGHT 49
+#define kTimeoutInterval 10
