@@ -282,10 +282,7 @@
             cell.backgroundColor = subViewBackgroundColor;
         }
     }
-    
-    
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    
     
     return cell;
 }
