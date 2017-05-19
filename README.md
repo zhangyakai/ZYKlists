@@ -2,6 +2,8 @@
 多个tableView和collectionView的联动表格 
 需要Masonry.h来进行布局
 
+![image](https://github.com/zhangyakai/ZYKlists/blob/master/list/listgif.gif)
+
 # 使用方法:
 导入列表文件夹中的文件
 
